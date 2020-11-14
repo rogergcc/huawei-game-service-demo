@@ -1,33 +1,60 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".MainActivity">
-
-    <com.google.android.material.appbar.AppBarLayout
+    android:layout_height="wrap_content"
+    android:layout_alignParentTop="true"
+    android:background="#FFFFFF"
+    android:orientation="vertical">
+    <Button
+        android:background="@drawable/btn_nor_down"
+        android:textAllCaps="false"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:theme="@style/AppTheme.AppBarOverlay">
+        android:layout_height="50dp"
+        android:text="Init"
+        android:id="@+id/codelab_init"/>
 
-        <androidx.appcompat.widget.Toolbar
-            android:id="@+id/toolbar"
-            android:layout_width="match_parent"
-            android:layout_height="?attr/actionBarSize"
-            android:background="?attr/colorPrimary"
-            app:popupTheme="@style/AppTheme.PopupOverlay" />
+    <Button
+        android:layout_marginTop="5dp"
+        android:background="@drawable/btn_nor_down"
+        android:textAllCaps="false"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="SignIn"
+        android:id="@+id/codelab_signIn"/>
+    <Button
+        android:layout_marginTop="5dp"
+        android:background="@drawable/btn_nor_down"
+        android:textAllCaps="false"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="GetCurrentPlayer"
+        android:id="@+id/codelab_gameLogin"/>
 
-    </com.google.android.material.appbar.AppBarLayout>
+    <Button
+        android:layout_marginTop="5dp"
+        android:background="@drawable/btn_nor_down"
+        android:textAllCaps="false"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="SubmitPlayerEvent_Begin"
+        android:id="@+id/codelab_reportStart"/>
+    <Button
+        android:layout_marginTop="5dp"
+        android:background="@drawable/btn_nor_down"
+        android:textAllCaps="false"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="SubmitPlayerEvent_End"
+        android:id="@+id/codelab_reportEnd"/>
 
-    <include layout="@layout/content_main" />
+    <Button
+        android:layout_marginTop="5dp"
+        android:background="@drawable/btn_nor_down"
+        android:textAllCaps="false"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="GetPlayerExtraInfo"
+        android:id="@+id/codelab_getPlayerExtraInfo"/>
 
-    <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/fab"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="bottom|end"
-        android:layout_margin="@dimen/fab_margin"
-        app:srcCompat="@android:drawable/ic_dialog_email" />
-
-</androidx.coordinatorlayout.widget.CoordinatorLayout>
+</LinearLayout>

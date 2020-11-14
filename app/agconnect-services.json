@@ -1,0 +1,14 @@
+{
+	"client":{
+		"appType":"1",
+		"cp_id":"2640051000001082108",
+		"product_id":"736430079244701811",
+		"client_id":"495363624181707136",
+		"client_secret":"20453B2D25400085C51AD2BF672E5E1C2D9B00926DEF7BB030231B60821793D9",
+		"project_id":"736430079244701811",
+		"app_id":"103271697",
+		"api_key":"CgB6e3x9ifylW+1lnJDPjEvaujeasdGzqrrcVyFlyOKG3s2z1/cKEjpFzYPw+A0GT08HndJ5wwhIeSEml6fEtfl9",
+		"package_name":"com.rogergcc.huawei_game_demo"
+	},
+	"configuration_version":"1.0"
+}
